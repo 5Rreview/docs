@@ -1,51 +1,25 @@
 # ☁️ Cloudflare Infrastructure
 
-How 5⭐⭐⭐⭐⭐ leverages Cloudflare's edge network.
+How 5⭐⭐⭐⭐⭐ leverages Cloudflare's edge network for global performance.
 
 ## Services Used
 
 | Service | Purpose |
 |---------|---------|
-| ⚡ Workers | Edge compute for images, translations, caching |
-| 💾 R2 | Object storage for media (images, screenshots, avatars) |
-| 🔑 KV | Key-value store for translations, configuration, edge cache |
+| ⚡ Workers | Edge compute for media delivery and translations |
+| 💾 R2 | Object storage for all platform media |
+| 🔑 KV | Edge key-value store for translations and configuration |
 | 🌐 DNS | Domain management and routing |
 | 🚀 CDN | Static asset caching and delivery |
 
-## Workers
+## 🔧 Open-Source Workers
 
-### Image Worker
-- Serves images from R2 with full HTTP semantics
-- ETag/If-None-Match for conditional requests
-- Range requests for partial content
-- Content negotiation (WebP, AVIF detection)
-- Multi-bucket routing by hostname
-- Open source: [github.com/5Rreview/image-worker](https://github.com/5Rreview/image-worker)
+| Worker | Description | Repo |
+|--------|-------------|------|
+| 🖼️ Image Worker | Media delivery from R2 with caching and content negotiation | [image-worker](https://github.com/5Rreview/image-worker) |
+| 🌍 Translation Worker | i18n translations served at the edge for 20 locales | [translation-worker](https://github.com/5Rreview/translation-worker) |
 
-### Translation Worker
-- Serves i18n translations from KV at the edge
-- Sub-millisecond response times
-- 20 locales supported
-- Cache API with configurable TTL
-- JSONP support for legacy integrations
-- Open source: [github.com/5Rreview/translation-worker](https://github.com/5Rreview/translation-worker)
-
-## R2 Storage
-
-Object storage for all platform media:
-- User-uploaded review images
-- Company logos and brand assets
-- Screenshots and verification media
-- Served through Image Worker with caching
-
-## KV Store
-
-Edge key-value storage for:
-- Translation strings (20 locales, multiple groups)
-- Sync manifests for frontend translation loading
-- Edge-cached configuration data
-
-## 📈 Performance
+## 📈 Performance Targets
 
 | Metric | Target |
 |--------|--------|
