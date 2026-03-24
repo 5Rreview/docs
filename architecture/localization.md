@@ -27,43 +27,19 @@
 | uk | Ukrainian | Cyrillic |
 | sv | Swedish | Latin |
 
-## Translation Architecture
+## ⚖️ Per-Language Calibration
 
-Translations are stored in Cloudflare KV and served at the edge via the [Translation Worker](https://github.com/5Rreview/translation-worker).
-
-```
-Backend (Laravel)
-  │
-  │ artisan sync command
-  ▼
-Cloudflare KV
-  │
-  │ Translation Worker
-  ▼
-Frontend (< 20ms globally)
-```
-
-### Key Format
-- `{locale}:{group}` — e.g., `en:reviews`, `ru:common`
-- `_manifest` — sync metadata with available locales and groups
-
-## Per-Language Calibration
-
-The 5R★ Trust Score system calibrates for language differences:
+The 5R★ Trust Score system calibrates for language and cultural differences:
 
 - **Rating norms** — some cultures rate conservatively (Japanese reviewers tend toward 3-star), others polarize (American reviewers tend toward 1 or 5)
 - **Review length** — CJK languages express the same content in fewer characters; German tends to be more verbose
 - **Quality scoring** — NLP accuracy varies by language; calibration prevents systematic bias
-- **AI detection** — 5R★ AI Risk Flags maintain phrase lists per language, reflecting language-specific AI writing patterns
+- **AI detection** — 5R★ AI Risk Flags use per-language patterns to detect AI-generated content
 
-## RTL Support
+## 🔄 RTL Support
 
-Arabic locale uses right-to-left text direction. The frontend and all text processing accounts for RTL layout and word boundary differences.
+Arabic locale uses right-to-left text direction. The platform fully supports RTL layout and text processing.
 
-## Adding New Locales
+## Edge Translations
 
-The system is designed for locale expansion:
-1. Add translation strings to all groups
-2. Set calibration parameters (rating mean, quality mean, length norms)
-3. Create AI phrase list for the new language
-4. Deploy via KV sync
+Translations are served globally at the edge via the open-source [Translation Worker](https://github.com/5Rreview/translation-worker).
