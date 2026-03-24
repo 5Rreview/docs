@@ -2,18 +2,11 @@
 
 High-level technical architecture of the 5★★★★★ platform.
 
-## Stack
+## Overview
 
-| Layer | Technology |
-|-------|-----------|
-| 🌐 Edge | Cloudflare Workers |
-| 💾 Storage | R2 (media), KV (translations, cache) |
-| ⚙️ Backend | PHP / Laravel |
-| 🖥️ Frontend | Blade + Alpine.js |
-| 🗄️ Database | MySQL |
-| 🤖 AI | Multi-provider (via abstraction layer) |
+5R★ uses a multi-layer architecture: edge compute for speed, a modular monolith for business logic, and a multi-provider AI layer for intelligent analysis — all designed around the principle that trust and business features must remain strictly separated.
 
-## Edge Architecture
+## ☁️ Edge Architecture
 
 The platform leverages Cloudflare's edge network for performance-critical operations:
 
