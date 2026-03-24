@@ -1,6 +1,6 @@
-# Localization
+# 🌍 Localization
 
-5RRRRR supports 20 locales from day one, with per-language calibration for fair scoring.
+5★★★★★ supports 20 locales from day one, with per-language calibration for fair scoring.
 
 ## Supported Locales
 
@@ -49,12 +49,12 @@ Frontend (< 20ms globally)
 
 ## Per-Language Calibration
 
-The trust scoring system calibrates for language differences:
+The 5R★ Trust Score system calibrates for language differences:
 
 - **Rating norms** — some cultures rate conservatively (Japanese reviewers tend toward 3-star), others polarize (American reviewers tend toward 1 or 5)
 - **Review length** — CJK languages express the same content in fewer characters; German tends to be more verbose
 - **Quality scoring** — NLP accuracy varies by language; calibration prevents systematic bias
-- **AI detection** — phrase lists are maintained per language, reflecting language-specific AI writing patterns
+- **AI detection** — 5R★ AI Risk Flags maintain phrase lists per language, reflecting language-specific AI writing patterns
 
 ## RTL Support
 

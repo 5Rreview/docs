@@ -1,10 +1,10 @@
-# Responding to Reviews
+# ✍️ Responding to Reviews
 
-Best practices for companies responding to reviews on 5RRRRR.
+Best practices for companies responding to 5R★ Reviews on [5rrrrr.com](https://5rrrrr.com).
 
 ## Why Respond?
 
-Response rate is a direct signal in your trust score. Companies that respond to reviews — especially negative ones — build more trust than companies that stay silent.
+Response rate is a direct signal in your 5R★ Trust Score. Companies that respond to reviews — especially negative ones — build more trust than companies that stay silent.
 
 ## Best Practices
 
@@ -35,7 +35,7 @@ Response rate is a direct signal in your trust score. Companies that respond to 
 - Never offer compensation in exchange for review changes
 - Don't use template responses for every review — personalize
 
-## The Resolution Loop
+## 🔄 The Resolution Loop
 
 The most powerful feature for companies:
 
@@ -45,11 +45,11 @@ Negative review → Your response → Issue resolved → Reviewer updates → Sc
 
 When a reviewer updates their review after resolution, the platform shows both the original and updated versions — demonstrating that you take feedback seriously.
 
-## Response Metrics
+## 📈 Response Metrics
 
 Your profile displays:
 - **Response rate** — percentage of reviews with your response
 - **Average response time** — how quickly you typically respond
 - **Resolution rate** — percentage of reported issues you resolved
 
-All three contribute positively to your trust score.
+All three contribute positively to your 5R★ Trust Score.

@@ -1,10 +1,10 @@
-# Project Overview
+# 🔭 Project Overview
 
-## What is 5RRRRR?
+## What is 5R★?
 
-5RRRRR is a trust platform that helps consumers make informed decisions about companies and services. Unlike traditional review sites, 5RRRRR treats trust as a measurable, algorithmic property — not just a collection of star ratings.
+**5★★★★★** ([5rrrrr.com](https://5rrrrr.com)) is a trust platform that helps consumers make informed decisions about companies and services. Unlike traditional review sites, 5R★ treats trust as a measurable, algorithmic property — not just a collection of star ratings.
 
-## The Problem
+## ❌ The Problem
 
 The review industry has a trust deficit:
 
@@ -14,7 +14,7 @@ The review industry has a trust deficit:
 - **Negative bias** — dissatisfied users dominate, satisfied users stay silent
 - **No resolution incentive** — platforms don't reward companies for fixing problems
 
-## Our Approach
+## ✅ Our Approach
 
 ### Open Trust Methodology
 
@@ -22,13 +22,13 @@ We publish our scoring methodology openly. Anyone can see what signals we measur
 
 ### Separation Architecture
 
-Trust scoring and business features are strictly separated at the code level. A company's payment status never affects their trust score, ranking, or review visibility.
+Trust scoring and business features are strictly separated at the code level. A company's payment status never affects their 5R★ Trust Score, ranking, or review visibility.
 
 ### Resolution Loop
 
-We don't just collect complaints — we create a cycle where companies respond, resolve issues, and users update their reviews. This turns negative experiences into trust-building opportunities.
+We don't just collect complaints — we create a cycle where companies respond, resolve issues, and users update their 5R★ Reviews. This turns negative experiences into trust-building opportunities.
 
-### Multi-Language from Day One
+### 🌍 Multi-Language from Day One
 
 The platform supports 20 languages with per-locale calibration, ensuring fair scoring regardless of language or cultural rating norms.
 

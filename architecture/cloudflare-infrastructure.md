@@ -1,16 +1,16 @@
-# Cloudflare Infrastructure
+# ☁️ Cloudflare Infrastructure
 
-How 5RRRRR leverages Cloudflare's edge network.
+How 5★★★★★ leverages Cloudflare's edge network.
 
 ## Services Used
 
 | Service | Purpose |
 |---------|---------|
-| Workers | Edge compute for images, translations, caching |
-| R2 | Object storage for media (images, screenshots, avatars) |
-| KV | Key-value store for translations, configuration, edge cache |
-| DNS | Domain management and routing |
-| CDN | Static asset caching and delivery |
+| ⚡ Workers | Edge compute for images, translations, caching |
+| 💾 R2 | Object storage for media (images, screenshots, avatars) |
+| 🔑 KV | Key-value store for translations, configuration, edge cache |
+| 🌐 DNS | Domain management and routing |
+| 🚀 CDN | Static asset caching and delivery |
 
 ## Workers
 
@@ -45,7 +45,7 @@ Edge key-value storage for:
 - Sync manifests for frontend translation loading
 - Edge-cached configuration data
 
-## Performance
+## 📈 Performance
 
 | Metric | Target |
 |--------|--------|
