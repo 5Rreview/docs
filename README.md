@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://5rrrrr.com">
+    <img src="assets/banner.svg" alt="5★★★★★.com — Reviews You Can Trust" width="100%">
+  </a>
+</p>
+
 # 5⭐⭐⭐⭐⭐ Documentation
 
 > 🌐 Public documentation for [5rrrrr.com](https://5rrrrr.com) — the open trust platform.
