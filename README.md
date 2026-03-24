@@ -1,4 +1,4 @@
-# 5★★★★★ Documentation
+# 5⭐⭐⭐⭐⭐ Documentation
 
 > 🌐 Public documentation for [5rrrrr.com](https://5rrrrr.com) — the open trust platform.
 

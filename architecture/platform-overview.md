@@ -1,6 +1,6 @@
 # 🏗️ Platform Architecture
 
-High-level technical architecture of the 5★★★★★ platform.
+High-level technical architecture of the 5⭐⭐⭐⭐⭐ platform.
 
 ## Overview
 

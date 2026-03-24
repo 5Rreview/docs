@@ -1,6 +1,6 @@
 # 🌍 Localization
 
-5★★★★★ supports 20 locales from day one, with per-language calibration for fair scoring.
+5⭐⭐⭐⭐⭐ supports 20 locales from day one, with per-language calibration for fair scoring.
 
 ## Supported Locales
 

@@ -2,7 +2,7 @@
 
 ## What is 5R★?
 
-**5★★★★★** ([5rrrrr.com](https://5rrrrr.com)) is a trust platform that helps consumers make informed decisions about companies and services. Unlike traditional review sites, 5R★ treats trust as a measurable, algorithmic property — not just a collection of star ratings.
+**5⭐⭐⭐⭐⭐** ([5rrrrr.com](https://5rrrrr.com)) is a trust platform that helps consumers make informed decisions about companies and services. Unlike traditional review sites, 5R★ treats trust as a measurable, algorithmic property — not just a collection of star ratings.
 
 ## ❌ The Problem
 

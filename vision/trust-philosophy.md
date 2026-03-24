@@ -1,6 +1,6 @@
 # 🧭 Trust Philosophy
 
-Core beliefs that guide every decision on the 5★★★★★ platform.
+Core beliefs that guide every decision on the 5⭐⭐⭐⭐⭐ platform.
 
 ## 📐 Trust is Measurable
 

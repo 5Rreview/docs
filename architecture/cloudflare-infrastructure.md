@@ -1,6 +1,6 @@
 # ☁️ Cloudflare Infrastructure
 
-How 5★★★★★ leverages Cloudflare's edge network.
+How 5⭐⭐⭐⭐⭐ leverages Cloudflare's edge network.
 
 ## Services Used
 
