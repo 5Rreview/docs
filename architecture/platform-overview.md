@@ -6,37 +6,7 @@ High-level technical architecture of the 5★★★★★ platform.
 
 5R★ uses a multi-layer architecture: edge compute for speed, a modular monolith for business logic, and a multi-provider AI layer for intelligent analysis — all designed around the principle that trust and business features must remain strictly separated.
 
-## ☁️ Edge Architecture
-
-The platform leverages Cloudflare's edge network for performance-critical operations:
-
-```
-         User
-          │
-    ┌─────┴─────┐
-    │ Cloudflare │
-    │   Edge     │
-    ├────────────┤
-    │ Workers:   │
-    │ • Images   │──→ R2 Buckets
-    │ • i18n     │──→ KV Store
-    │ • Cache    │
-    └─────┬──────┘
-          │
-    ┌─────┴──────┐
-    │  Origin    │
-    │  Server    │
-    │  (Laravel) │
-    └────────────┘
-```
-
-### Image Service
-Cloudflare Worker serving media from R2 with caching, ETag support, range requests, and CORS. See [image-worker](https://github.com/5Rreview/image-worker).
-
-### Translation Service
-Cloudflare Worker serving i18n translations from KV at the edge with sub-millisecond latency. See [translation-worker](https://github.com/5Rreview/translation-worker).
-
-## Modular Backend
+## ⚙️ Modular Backend
 
 The backend uses a modular architecture where features are isolated into independent modules. Each module has its own models, controllers, services, views, routes, and migrations.
 
